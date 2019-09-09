@@ -1,0 +1,36 @@
+N = 10:
+BST		2.0 ms
+AVL		1.0 ms
+BST(reverse)	0.0 ms
+AVL(reverse)	0.0 ms
+
+N = 100:
+BST		1.0 ms
+AVL		1.0 ms
+BST(reverse)	0.0 ms
+AVL(reverse)	1.0 ms
+
+N = 1000:
+BST		1.0 ms
+AVL		2.0 ms
+BST(reverse)	3.0 ms
+AVL(reverse)	5.0 ms
+
+N = 10000:
+BST		2.0 ms
+AVL		277.0 ms
+BST(reverse)	234.0 ms
+AVL(reverse)	Stack Overflow
+
+N = 100000:
+BST		34.0 ms
+AVL		51826.0 ms
+BST(reverse)	Stack Overflow
+AVL(reverse)	Stack Overflow
+
+N = 1000000:
+BST		807.0 ms
+AVL		Too slow!
+BST(reverse)	Stack Overflow
+AVL(reverse)	Stack Overflow
+
